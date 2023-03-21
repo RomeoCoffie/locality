@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "locality",
+    "slug": "locality",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/LocalityIcon.png",
+    "splash": {
+      "image": "./assets/LocalityIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/LocalityIcon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/locality.png"
+    },
+    "description": "Uber clone in react native. \n\n- Navigation\n- Redux, \n- Tailwind CSS\n- Google Autocomplete\n- Google map integration with price and distance matrix\n- and a lot more",
+    "githubUrl": "https://github.com/RomeoCoffie/locality"
+  }
+}
